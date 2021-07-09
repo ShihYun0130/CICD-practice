@@ -78,3 +78,5 @@ According to [ArgoCD](https://argoproj.github.io/argo-cd/getting_started/) Offic
    - web ui url: [https://140.112.106.25](https://140.112.106.25/applications)
    - username: admin
    - password: iUJPlKTkKacAHuKn
+
+   NOTE：在 server CLI 上面要先登入 argocd 才打得開 web UI
