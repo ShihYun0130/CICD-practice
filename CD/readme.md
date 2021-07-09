@@ -80,3 +80,12 @@ According to [ArgoCD](https://argoproj.github.io/argo-cd/getting_started/) Offic
    - password: iUJPlKTkKacAHuKn
 
    NOTE：在 server CLI 上面要先登入 argocd 才打得開 web UI
+
+7. 延續 6. 在 argocd 上開專案的步驟如下。要先去 settings 裡面設定 repositories
+
+   1. 選擇 connect repo using ssh
+      1. 要去 server generate 一個 rsa key
+      2. public key 放 github，private key 放在 argocd
+      3. 設定好按 connct 就可以
+   2. 之後就會在 Applications 按 new App 按照[官方設定](https://argoproj.github.io/argo-cd/getting_started/)完就可以看到新的 project 了
+      - NOTE：如果設定的時候 sync policy 選擇了 automatic，點進去這個 project 就可以看到 pod 長出來了！
