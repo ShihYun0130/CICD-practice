@@ -75,7 +75,7 @@ According to [ArgoCD](https://argoproj.github.io/argo-cd/getting_started/) Offic
 
    我選擇開一個 UI，用 UI 操作：
 
-   - web ui url: [https://140.112.106.25:31459](https://140.112.106.25:31459)
+   - web ui url: [https://140.112.106.12:31459](https://140.112.106.12:31459)
    - username: admin
    - password: iUJPlKTkKacAHuKn
 
